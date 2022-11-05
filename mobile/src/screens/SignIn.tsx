@@ -7,9 +7,7 @@ import { Button } from '../components/Button';
 import { useAuth } from '../hooks/useAuth';
 
 export function SignIn() {
-  const { signIn, user } = useAuth();
-
-  console.log(user);
+  const { signIn } = useAuth();
 
   return (
     <Center flex={1} bgColor="gray.900" p={7}>
